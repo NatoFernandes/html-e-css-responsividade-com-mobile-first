@@ -12,37 +12,48 @@ hr {
 }
 
 @media screen and (min-width: 1024px) {
-   .rodape {
-    display: flex;
-    justify-content: space-around;
-   }
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
 
-   .lista_rodape {
-    display: block;
+    .lista_rodape {
+        display: block;
+    }
+
+    .lista_menu_item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .lista_rodape_link {
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+
+    .lista_rodape_titulo {
+        font-size: 14px;
+        color: var(--cinza-claro);
+    }
+
+    .rodape_titulo {
+        font-size: 24px;
+    }
 }
 
-   .lista_rodape_item {
-    display: flex;
-    align-items: center;
-    margin: 0.6em 0;
-   }
+@media screen and (min-width: 1728px) {
+    .lista_rodape {
+        border-left: 1px solid var(--cinza-claro);
+        padding: 1em;
+    }
 
-   .lista_rodape_link {
-    color: var(--cinza);
-    text-decoration: none;
-    margin: 0.6em;
-   }
+    .lista_rodape_titulo {
+        margin: 0 0 1em 0;
+    }
 
-   .lista_rodape_titulo {
-    font-size: 14px;
-    color: var(--cinza-claro);
-   }
-
-   .rodape_titulo {
-    font-size: 24px;
-   }
-
-   .lista_rodape_titulo {
-    margin: 0 0 1.5em 0;
-   }
+    .rodape {
+        padding: 3em 0;
+    }
 }
