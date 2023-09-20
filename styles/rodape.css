@@ -21,7 +21,7 @@ hr {
         display: block;
     }
 
-    .lista_menu_item {
+    .lista_rodape_item {
         display: flex;
         align-items: center;
         margin: 0.6em 0;
